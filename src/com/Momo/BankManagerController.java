@@ -1,6 +1,6 @@
 package com.Momo;
 
-public class Main {
+public class BankManagerController {
     public static void main(String[] args) {
         Bank bank = new Bank();
         bank.addNewBranch("AccessBank");

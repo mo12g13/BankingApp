@@ -38,7 +38,7 @@ public class Bank {
             }
         return false;
     }
-
+    // A method that shows transaction of various customer
     public boolean showList(String branchName, boolean showTransaction) {
         Branch branch = findBranch(branchName);
         if (branch != null) {
@@ -64,7 +64,7 @@ public class Bank {
         }
     }
 
-
+    // A method that finds a particular branch
     private Branch findBranch(String brandName){
         for(int i=0; i<branches.size(); i++){
             Branch branchFound = this.branches.get(i);

@@ -6,10 +6,10 @@ import java.util.ArrayList;
  * Created by Momo Johnson on 8/6/2016.
  */
 public class Branch {
-
+    //A List of customers
     private ArrayList<Customers> customers = new ArrayList<>();
-    private String bankName;
-
+    private String bankName;// Bank name
+    //Constructor of the bank class
     public Branch(String bankName) {
         this.bankName = bankName;
     }
